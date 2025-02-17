@@ -1,0 +1,294 @@
+Unity Editor version:    2021.3.41f1 (6c5a9e20c022)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.7.6 (Build 21H1320)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/LopezDaniel/Laboratorio
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52025
+Successfully changed project path to: /Users/LopezDaniel/Laboratorio
+/Users/LopezDaniel/Laboratorio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4541904384] Host "[IP] 10.191.77.29 [Port] 0 [Flags] 2 [Guid] 969070075 [EditorId] 969070075 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Andres-Daniel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4541904384] Host "[IP] 10.191.77.29 [Port] 0 [Flags] 2 [Guid] 969070075 [EditorId] 969070075 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Andres-Daniel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 93.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.41f1 (6c5a9e20c022)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/LopezDaniel/Laboratorio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 6000 (low power)
+Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005027 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 66.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (316ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2462ms)
+		BeginReloadAssembly (379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1868ms)
+			LoadAssemblies (409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (660ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (542ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.41f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (40.0 KB). Loaded Objects now: 3543.
+Memory consumption went from 102.0 MB to 102.0 MB.
+Total: 4.132055 ms (FindLiveObjects: 0.322965 ms CreateObjectMapping: 0.144080 ms MarkObjects: 3.560314 ms  DeleteObjects: 0.103043 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32967.383336 seconds.
+  path: Assets/lateUpdate.cs
+  artifactKey: Guid(6caa9b8771dd94ec5a35f63a9794c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/lateUpdate.cs using Guid(6caa9b8771dd94ec5a35f63a9794c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8672cb9aa3d5dde78e4553d112e53a7f') in 0.653442 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014609 seconds.
+  path: Assets/update.cs
+  artifactKey: Guid(8567d8c6acd7a4b19a7b4c8b57fb76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/update.cs using Guid(8567d8c6acd7a4b19a7b4c8b57fb76b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c55b9324d3291fba082c69ca02ed4a5') in 0.004713 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034367 seconds.
+  path: Assets/fixedUpdate.cs
+  artifactKey: Guid(f0eb0e803b4d44f5687ad10cda60c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/fixedUpdate.cs using Guid(f0eb0e803b4d44f5687ad10cda60c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e2346fd13ddbfc5ed27dc7613cfd52') in 0.004164 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023894 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9fe43ddc169fc48f3bba028fad79ad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(9fe43ddc169fc48f3bba028fad79ad71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1078ae3fcfb881fab4a94e6e0513ece5') in 0.002719 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026416 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db6b0515ace41c351bacb5024b76a59') in 0.004246 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032799 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene7.unity
+  artifactKey: Guid(1e8c971561e77ee4c93d562c8e15b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene7.unity using Guid(1e8c971561e77ee4c93d562c8e15b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e6a3fa61cbd2d3770fe0ebe5d37f11') in 0.002577 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001541 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene6.unity
+  artifactKey: Guid(cc69145b37e92c544b57ed01232bf56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene6.unity using Guid(cc69145b37e92c544b57ed01232bf56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09992677fd80a75523e569b063457201') in 0.002226 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024875 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene2.unity
+  artifactKey: Guid(0c98d542b494087448d3c15cd3efd292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene2.unity using Guid(0c98d542b494087448d3c15cd3efd292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4caba3f346986f4b5ac8d26a98b6470') in 0.002620 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006737 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene4.unity
+  artifactKey: Guid(4aafbc71b96bcec41b8c25bcb428679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene4.unity using Guid(4aafbc71b96bcec41b8c25bcb428679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac16cbc7450e8ef3c279d8debbbe4ae') in 0.002555 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033509 seconds.
+  path: Assets/Easy Primitive People/Materials
+  artifactKey: Guid(e09f7033626053543a8aa63ff387ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/Materials using Guid(e09f7033626053543a8aa63ff387ac07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e6abe16076038597f6234b1722702e') in 0.002368 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025281 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene8.unity
+  artifactKey: Guid(94452d59af145c1418eed6d1edf31aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene8.unity using Guid(94452d59af145c1418eed6d1edf31aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95187cd34833efae9b5fb5b6dd0225bb') in 0.002089 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001718 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene.unity
+  artifactKey: Guid(7eaef681ef0135348aecb17330d9d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene.unity using Guid(7eaef681ef0135348aecb17330d9d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e817a3c6b4dbcab82168bcb1ca32cfce') in 0.002321 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004124 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene5.unity
+  artifactKey: Guid(b8ddf751ce53ea84f9d87acdfb83327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene5.unity using Guid(b8ddf751ce53ea84f9d87acdfb83327f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20be086cf47ce449380bf7ba93ee435a') in 0.002169 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001178 seconds.
+  path: Assets/Easy Primitive People/PrimitivePeopleDemoScene3.unity
+  artifactKey: Guid(e6ef56ad81e5bf34b81506d6eae32c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Easy Primitive People/PrimitivePeopleDemoScene3.unity using Guid(e6ef56ad81e5bf34b81506d6eae32c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb8bcd3d11dc35761c9ba0014021f61') in 0.002146 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005670 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(fcde0b98ea86647699028bf7e266327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/move.cs using Guid(fcde0b98ea86647699028bf7e266327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c85786069f68f1b8c857f28e486c14') in 0.003404 seconds 
+Number of asset objects unloaded after import = 0
